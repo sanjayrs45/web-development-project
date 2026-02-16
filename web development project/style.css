@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(11, 10, 13, 0.47);
+    color: rgb(12, 11, 13);
+    padding:  15px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: rgb(6, 14, 13);
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(214, 195, 113);
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+.box:hover{
+    background-color: rgba(220, 230, 229, 0.433);
+    color: rgb(14, 222, 194);
+    cursor: pointer;
+}
+.products{
+    text-align: center;
+    
+}
+.about{
+    margin-top: 20px;
+    padding: 40px;
+}
+.contact{
+    background-color: rgb(107, 122, 126);
+    color: rgb(18, 13, 13);
+    text-align: center;
+    padding: 40px;
+}
